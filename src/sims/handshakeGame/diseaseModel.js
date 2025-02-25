@@ -71,7 +71,7 @@ export const updatePopulation = (
   }
   const shuffledPopulation = shufflePopulation(population);
   // Now that we've shuffled, let's move through the population by two's
-  for (let i = 0; i < shuffledPopulation.length - 1; i += 2) {
+  for (let i = 0; i < shuffledPopulation.length - 1; i += 25) {
     let personA = shuffledPopulation[i];
     let personB = shuffledPopulation[i + 1];
 
