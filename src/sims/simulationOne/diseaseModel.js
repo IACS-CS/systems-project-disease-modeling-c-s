@@ -21,11 +21,11 @@ and not interacting with others in each round.
 /**
  * Authors: 
  * 
- * What we are simulating:
+ * What we are simulating:Disease Spread Model
  * 
  * What elements we have to add:
  * 
- * In plain language, what our model does:
+ * In plain language, what our model does: 
  * 
  */
 
