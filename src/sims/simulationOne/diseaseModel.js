@@ -26,7 +26,7 @@ and not interacting with others in each round.
  * What elements we have to add:  Death Rate
  * 
  * In plain language, what our model does
- *: Our model is going to track the death rate of those infected with common cold.
+ *: 
  * 
  */
 
