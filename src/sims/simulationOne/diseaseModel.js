@@ -21,31 +21,17 @@ and not interacting with others in each round.
 /**
  * Authors: Chanya + Sheba 
  * 
- * What we are simulating:Disease Spread Model of Common cold
+ * What we are simulating: Disease Spread Model of Common cold
  * 
- * What elements we have to add:  Death Rate
- * 
+ * What elements we have to add: Death rate
  * In plain language, what our model does do? :
  *:   Instructions for the Common Cold Infection Game
 
- 1. Modeling Contacts and Spread
-Two People in Contact (Basic Handshake Model):
+1. Two People in Contact (Basic Handshake Model):
 In each round of the simulation, we start with two individuals in contact, and if one person is infected, they have a chance to infect the other person in contact. This simulates a basic handshake model.
-
-Multiple Contacts:
-To make it more interesting, instead of just two people shaking hands, you could increase the number of people interacting. For example:
-
-Three People in Contact: Three people are put into a group, and each infected person has a chance to infect the others. You could either:
-Put people in contact in a line (e.g., Person 1 with Person 2, Person 2 with Person 3, etc.)
-Randomly select people each round (using random pairing).
-2. Recovery from Disease
-In this version, after a certain number of days (or rounds), an infected person recovers. This can affect the disease spread by:
-Reducing the pool of infected individuals.
-Changing the disease's progression (maybe adding a "recovered" state where individuals can't spread the disease anymore).
-3. Quarantine Mechanism
-Add a quarantine chance to the simulation. Infected individuals could have a percentage chance of being quarantined, which means they won't interact with others that round. This reduces the spread but introduces randomness.
-4. Death Rate Counter
-Track a death rate that increases every time an infected person "dies." The death could happen after a certain number of rounds or based on a random chance during the disease's progression.
+2. After each round, a pair of 2 individuals are added to the game to increase the odds of survival.
+3. Death Rate Counter
+Tracking a death rate that increases every time an infected person "dies." The death could happen after a certain number of rounds or based on a random chance during the disease's progression.
 
  * 
  */
