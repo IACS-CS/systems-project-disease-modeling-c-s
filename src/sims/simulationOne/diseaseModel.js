@@ -21,12 +21,12 @@ and not interacting with others in each round.
 /**
  * Authors: Chanya + Sheba 
  * 
- * What we are simulating:Disease Spread Model
+ * What we are simulating:Disease Spread Model of Common cold
  * 
  * What elements we have to add:  Death Rate
  * 
  * In plain language, what our model does
- *: Our model is going to track the death rate of the infected.
+ *: Our model is going to track the death rate of those infected with common cold.
  * 
  */
 
