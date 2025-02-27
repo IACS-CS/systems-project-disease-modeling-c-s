@@ -19,11 +19,11 @@ and not interacting with others in each round.
 */
 
 /**
- * Authors: 
+ * Authors: Chanya + Sheba 
  * 
  * What we are simulating:Disease Spread Model
  * 
- * What elements we have to add:
+ * What elements we have to add:Q
  * 
  * In plain language, what our model does: 
  * 
