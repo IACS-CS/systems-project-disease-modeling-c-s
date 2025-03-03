@@ -8,7 +8,9 @@ Here is an **additional paragraph** you should give AI when asking for assistanc
 ---
 🚀 **AI Prompt for Help:**
 
-I am creating an agent-based systems model in JavaScript with a React front-end. My model calls `updatePopulation` once per round of my disease simulation.  
+anding!
+
+---I am creating an agent-based systems model in JavaScript with a React front-end. My model calls `updatePopulation` once per round of my disease simulation.  
 
 I am a beginner student, so when helping me, please:  
 - **Avoid compact patterns** like ternary statements, `map()`, `filter()`, and `reduce()`.  
@@ -22,8 +24,6 @@ Make sure I have shared my **`Simulation.jsx` and `diseaseModel.js` files** so y
 Remind me to commit my code to version control before pasting in any edits made by AI and remind me I need to give credit in my version control notes as well as in comments in my code whenever I add AI. When you make changes to my code, please try
 to add comments indicating what you've done, giving yourself credit, and helping
 explain. And please always ask me follow up questions to ensure understanding!
-
----
 
 ### **💡 Why This is Important**
 - **AI should assist, not replace thinking** → You should already have a plan before asking AI.  
