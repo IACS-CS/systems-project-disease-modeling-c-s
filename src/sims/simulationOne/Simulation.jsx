@@ -32,7 +32,8 @@ const renderPatients = (population) => {
       return "🤢"; // Vomiting Face for already sick
     } else {
       return "😀"; // Healthy person
-    }
+    } else if (p.dead){
+      return "💀"; // Dead person
   }
 
   function renderSubsetWarning() {
