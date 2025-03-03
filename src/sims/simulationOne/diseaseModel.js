@@ -37,6 +37,12 @@ Tracking a death rate that increases every time an infected person "dies." The d
     - skull emoji to represent dead (💀)
  */
 
+    export const defaultSimulationParameters = {
+      // Add any parameters you want here with their initial values
+      //  -- you will also have to add inputs into your jsx file if you want
+      // your user to be able to change these parameters.
+    };
+    
 
 // Modify the individual object to include the "dead" property
 export const createPopulation = (size = 1600) => {
@@ -109,12 +115,4 @@ export const computeStatistics = (population, round) => {
   }
 
   return { round, infected, newlyInfected, totalDeaths }; // Return the total deaths
-};
-const Stats = ({ stats }) => {
-  return (
-    <div>
-      <p>Total Infected: {stats.infected}</p>
-      <p>Total Deaths: {stats.totalDeaths}</p>
-    </div>
-  );
 };
