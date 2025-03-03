@@ -10,7 +10,7 @@ export const App = () => {
       component: HandshakeSimulation,
     },
     {
-      name: "My Simulation (CHANGE NAME in APP.jsx)",
+      name: "Death Rate Counter in Common Cold Outbreak",
       component: Simulation,
     },
     {
