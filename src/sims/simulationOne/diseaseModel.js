@@ -33,7 +33,8 @@ In each round of the simulation, we start with two individuals in contact, and i
 3. Death Rate Counter
 Tracking a death rate that increases every time an infected person "dies." The death could happen after a certain number of rounds or based on a random chance during the disease's progression.
 
- * 
+ *  - 50% death probabilty
+    - skull emoji to represent dead (💀)
  */
 
 
