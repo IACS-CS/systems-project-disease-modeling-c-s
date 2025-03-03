@@ -90,7 +90,6 @@ export const trackedStats = [
   { label: "Total Infected", value: "infected" },
   { label: "Total Deaths", value: "dead" }, // Track total deaths
 ];
-
 // Compute the statistics including deaths
 export const computeStatistics = (population, round) => {
   let infected = 0;
@@ -110,4 +109,12 @@ export const computeStatistics = (population, round) => {
   }
 
   return { round, infected, newlyInfected, totalDeaths }; // Return the total deaths
+};
+const Stats = ({ stats }) => {
+  return (
+    <div>
+      <p>Total Infected: {stats.infected}</p>
+      <p>Total Deaths: {stats.totalDeaths}</p>
+    </div>
+  );
 };
