@@ -38,12 +38,11 @@ Tracking a death rate that increases every time an infected person "dies." The d
  */
 
     export const defaultSimulationParameters = {
-      // Add any parameters you want here with their initial values
-      //  -- you will also have to add inputs into your jsx file if you want
-      // your user to be able to change these parameters.
-    };
-    
+      infectionChance: 50,
+  deathRate: 0.10 // chance of death for infected
+};
 
+    
 // Modify the individual object to include the "dead" property
 export const createPopulation = (size = 1600) => {
   const population = [];
@@ -65,8 +64,20 @@ export const createPopulation = (size = 1600) => {
 
 // Update the individual, adding the death check based on a 50% chance
 const updateIndividual = (person, contact, params) => {
-  if (person.infected && !person.dead) {
-    // 50% chance of death for infected individuals
+  if (person.infected) {
+    // If they were already infected, they are no longer
+    // newly infected :)
+    person.newlyInfected = false;
+  }
+  if (contact.infected) {
+    if (Math.random() * 100 < params.infectionChance) {
+      if (!person.infected) {
+        person.newlyInfected = true;
+      }
+      person.infected = true;
+    }
+  }
+
     if (Math.random() * 100 < 50) {
       person.dead = '💀'; // Mark person as dead with a skull emoji
     }
@@ -79,7 +90,7 @@ const updateIndividual = (person, contact, params) => {
       person.newlyInfected = true;
     }
   }
-};
+;
 
 // Update the population each round and apply the death and infection logic
 export const updatePopulation = (population, params) => {
