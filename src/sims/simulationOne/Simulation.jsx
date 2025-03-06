@@ -32,7 +32,7 @@ const renderPatients = (population) => {
       return "💀"; // dead person
     } else {
       return "😀"; // Healthy person
-    
+    }
   }
 
   function renderSubsetWarning() {
@@ -185,4 +185,4 @@ const Simulation = () => {
 
 export default Simulation 
 
-};
+
