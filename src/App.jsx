@@ -23,7 +23,7 @@ export const App = () => {
 
   const renderChooser = () => (
     <div className="simulation-chooser">
-      <h1>Sheba and Chanya's Simulation Playground</h1>
+      <h1>Sheba and Chanya's Simulation Playground: We built an agent-based computer model of the spread of a disease and examined the effects of some variables on the infection. </h1>
       <ul>
         {sims.map((sim) => (
           <li key={sim.name}>
