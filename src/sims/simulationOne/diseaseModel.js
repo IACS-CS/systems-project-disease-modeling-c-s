@@ -128,4 +128,5 @@ export const computeStatistics = (population, round) => {
 
   return { round, infected, newlyInfected, totalDeaths }; // Return the total deaths
 };
-//* credit to ChatGPT for code help
+//* credit to ChatGPT for code help for the death rate and infection logic
+
