@@ -14,7 +14,7 @@ export const App = () => {
       component: Simulation,
     },
     {
-      name: "My Second Simulation (CHANGE NAME in APP.jsx)",
+      name: "Unfinished",
       component: Simulation2,
     },
   ];
@@ -23,7 +23,7 @@ export const App = () => {
 
   const renderChooser = () => (
     <div className="simulation-chooser">
-      <h1>Simulation Playground</h1>
+      <h1>Sheba and Chanya's Simulation Playground</h1>
       <ul>
         {sims.map((sim) => (
           <li key={sim.name}>

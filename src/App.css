@@ -4,8 +4,8 @@
 }
 
 .world {
-  background-color: black;
-  color: white;
+  background-color: rgb(232, 139, 233);
+  color: rgb(199, 63, 208);
   padding: 3em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
@@ -40,16 +40,16 @@ th,
 td {
   border: 1px solid rgb(124, 124, 124);
   padding: 0.5em;
-  background-color: white;
-  color: #222;
+  background-color: rgb(239, 177, 234);
+  color: #e488c7;
 }
 th {
-  background-color: #312727;
-  color: white;
+  background-color: #f671e2;
+  color: rgb(228, 104, 201);
 }
 tr:nth-child(even) td {
   background-color: #f2f2f2;
-  color: #222;
+  color: #e27fce;
 }
 
 button {
