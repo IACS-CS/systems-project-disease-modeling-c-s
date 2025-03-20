@@ -25,11 +25,11 @@ import { shufflePopulation } from "../../lib/shufflePopulation";
 */
 
 /**
- * Authors: 
+ * Authors:  Chanya + Sheba
  * 
- * What we are simulating:
+ * What we are simulating: flu disease model
  * 
- * What we are attempting to model from the real world:
+ * What we are attempting to model from the real world: 
  * 
  * What we are leaving out of our model:
  * 
